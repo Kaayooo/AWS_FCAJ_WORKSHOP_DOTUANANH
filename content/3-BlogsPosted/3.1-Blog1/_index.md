@@ -18,11 +18,11 @@ During the development of our financial data analytics project covering companie
 
 Through this article, our team hopes to provide a clear perspective on leveraging AWS Serverless architecture to solve large-scale financial data processing challenges in an automated, cost-effective, and highly reliable manner.
 
-![AWS Serverless Architecture Diagram](/images/blog1.jpg)
+![AWS Serverless Architecture Diagram](/images/3-Blogs/blog1.jpg)
 
 ---
 
 ### Resources & Publication Links:
-* **Official Post Link on AWS Study Group**: [Blog Post Link]()
+* **Official Post Link on AWS Study Group**: [Blog Post Link](https://vnshort.com/j5uq)
 * **Live System Demo Link**: [Live System Link]()
 * **Detailed Installation & Operational Guide**: [User & Deployment Guide Link]()

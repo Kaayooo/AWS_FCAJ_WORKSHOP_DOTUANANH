@@ -5,28 +5,28 @@ weight : 6
 chapter : false
 pre : " <b> 5.6. </b> "
 ---
-Congratulations on completing this workshop! 
-In this workshop, you learned architecture patterns for accessing Amazon S3 without using the Public Internet. 
-+ By creating a gateway endpoint, you enabled direct communication between EC2 resources and Amazon S3, without traversing an Internet Gateway. 
-+ By creating an interface endpoint you extended S3 connectivity to resources running in your on-premises data center via AWS Site-to-Site VPN or Direct Connect. 
 
-#### clean up
-1. Navigate to Hosted Zones on the left side of Route 53 console. Click the name of *s3.us-east-1.amazonaws.com* zone. Click Delete and confirm deletion by typing delete. 
+Congratulations on completing this workshop!
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/delete-zone.png)
+You have now walked through a simplified version of the architecture described in the proposal and worklog, from ingestion to dashboard deployment.
 
-2. Disassociate the Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
+#### Cleanup checklist
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/vpc.png)
+1. Delete the S3 buckets you created for raw and curated data.
+   - Empty the buckets first if they contain objects.
 
-4. Open the CloudFormation console  and delete the two CloudFormation Stacks that you created for this lab:
-+ PLOnpremSetup
-+ PLCloudSetup
+2. Remove the AWS resources created for the workshop:
+   - Lambda functions
+   - Step Functions state machines
+   - Glue crawlers, jobs, and databases
+   - API Gateway APIs and Lambda backends
+   - Amplify app and Cognito resources
+   - CloudWatch log groups and EventBridge rules
 
-![delete stack](/images/5-Workshop/5.6-Cleanup/delete-stack.png)
+3. Review IAM roles and policies created for the workshop and remove those that are no longer needed.
 
-5. Delete S3 buckets
-+ Open S3 console
-+ Choose the bucket we created for the lab, click and confirm empty. Click delete and confirm delete.
+4. Confirm that no unexpected charges remain in your AWS account.
 
-![delete s3](/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+#### Final note
+
+This cleanup step is important because the workshop is intended to demonstrate the architecture and should not leave behind unused resources in your AWS account.

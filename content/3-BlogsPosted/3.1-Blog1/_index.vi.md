@@ -18,10 +18,10 @@ Trong quá trình thực hiện dự án phân tích dữ liệu tài chính doa
 
 Qua bài viết này, nhóm mình hy vọng mang lại cái nhìn rõ ràng về cách ứng dụng kiến trúc serverless trên AWS để giải quyết bài toán xử lý dữ liệu tài chính quy mô lớn một cách tự động, tối ưu chi phí và đạt độ chính xác cao.
 
-![Sơ đồ kiến trúc hệ thống AWS Serverless](/images/blog1.jpg)
+![Sơ đồ kiến trúc hệ thống AWS Serverless](/images/3-Blogs/blog1.jpg)
 ---
 
 ### Các đường liên kết tài nguyên & Bài đăng:
-* **Link bài post chính thức trên AWS Study Group**: [Đường link bài post]()
+* **Link bài post chính thức trên AWS Study Group**: [Đường link bài post](https://vnshort.com/j5uq)
 * **Link trực tiếp hệ thống ứng dụng (Live System)**: [Link hệ thống ứng dụng]()
 * **Link hướng dẫn cài đặt & vận hành chi tiết**: [Hướng dẫn cài đặt & sử dụng]()

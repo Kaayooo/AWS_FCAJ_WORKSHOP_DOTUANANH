@@ -28,9 +28,9 @@ The platform utilizes **Amazon EventBridge** and **AWS Step Functions** to orche
 ### 3. Solution Architecture  
 The platform follows a 5-tier AWS Serverless Architecture:  
 
-![Vietnam Financial Distress System Architecture](/images/2-Proposal/architecture_overview.png)  
+![Vietnam Financial Distress System Architecture](/images/2-Proposal/architecture_overview.jpg)  
 
-![Data Pipeline Architecture](/images/2-Proposal/pipeline_architecture.png)  
+![Data Pipeline Architecture](/images/2-Proposal/pipeline_architecture.jpg)  
 
 *AWS Services Used*  
 - **Amazon EventBridge**: Triggers scheduled cron jobs for quarterly/annual financial data ingestion.  

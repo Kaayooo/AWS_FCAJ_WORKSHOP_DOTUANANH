@@ -18,11 +18,12 @@ Một trong những mảnh ghép quan trọng nhất trong quá trình xây dự
 
 Qua bài viết này, nhóm mình hy vọng giúp người đọc dễ dàng nắm bắt được các nguyên lý cốt lõi khi vận hành AWS Glue Jobs để xây dựng một pipeline chuẩn hóa dữ liệu tài chính tự động, tối ưu chi phí và mở rộng linh hoạt trên đám mây.
 
-![Sơ đồ kiến trúc xử lý dữ liệu ETL với AWS Glue Jobs và Amazon S3 Data Lake](/images/blog3.jpg)
+![Sơ đồ kiến trúc xử lý dữ liệu ETL với AWS Glue Jobs và Amazon S3 Data Lake](/images/3-Blogs/blog3.jpg)
 
 ---
 
 ### Nguồn tham khảo:
+* **Link bài post chính thức trên AWS Study Group**: [Đường link bài post](https://short.com.vn/gGv)
 * [Trang chủ dịch vụ AWS Glue](https://aws.amazon.com/glue/)
 * [Tài liệu kỹ thuật chính thức AWS Glue Documentation](https://docs.aws.amazon.com/glue/)
 * [Hướng dẫn chuẩn AWS Glue ETL Best Practices](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-glue-etl/welcome.html)

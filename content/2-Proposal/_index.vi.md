@@ -28,9 +28,9 @@ Nền tảng tận dụng **Amazon EventBridge** và **AWS Step Functions** đ�
 ### 3. Kiến trúc giải pháp  
 Hệ thống áp dụng kiến trúc Serverless 5 phân vùng chuyên biệt trên AWS Cloud:  
 
-![Vietnam Financial Distress System Architecture](/images/2-Proposal/architecture_overview.png)  
+![Vietnam Financial Distress System Architecture](/images/2-Proposal/architecture_overview.jpg)  
 
-![Data Pipeline Architecture](/images/2-Proposal/pipeline_architecture.png)  
+![Data Pipeline Architecture](/images/2-Proposal/pipeline_architecture.jpg)  
 
 *Dịch vụ AWS sử dụng*  
 - *Amazon EventBridge*: Kích hoạt cron schedule định kỳ cho luồng thu thập dữ liệu BCTC quý/năm.  
